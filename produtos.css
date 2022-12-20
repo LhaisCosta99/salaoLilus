@@ -6,13 +6,17 @@ header{
     background: #bbbbbb;
     padding: 20px 0;
 }
-
+.logo2{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
 .caixa{
     position: relative;
     width: 940px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items:center;
 }
 
 nav{
@@ -44,7 +48,10 @@ nav a:hover{
     margin: 0 auto;
     padding: 50px 0;
 }
-
+.cards{
+    height: 150px;
+    width: 150px;
+}
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -55,6 +62,7 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 .produtos li:hover{
@@ -62,10 +70,10 @@ nav a:hover{
 }
 
 .produtos li:active{
-    border-color: red;
+    border-color:rgb(192, 142, 80);
 }
 .produtos li:hover h2{
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .produtos h2{
@@ -81,4 +89,24 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0 ;
+    color: red;
+}
+
+footer{
+    text-align: center;
+    background:#bbbbbb;
+    padding: 40px 0;
+    padding-left: 50px;
+}
+
+.logo_footer{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.copyrigth{
+    color: bisque;
+    font-size: 20px;
+    margin: 20px 0  0 ;
 }
