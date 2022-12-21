@@ -170,9 +170,38 @@ td,th{
     padding: 8px 15px;
 }
 
-footer{
+/* Tudo da home*/
+
+.banner{
+    width: 100%;
+}
+
+.titulo_principal{
     text-align: center;
-    background:#bbbbbb;
-    padding: 40px 0;
-    padding-left: 50px;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left ;
+}
+
+.principal p{
+    margin:0 0 1em;
+}
+
+.principal strong{
+    font-weight: bolder;
+}
+
+.principal em{
+    font-size: italic;
+}
+
+.utensilios{
+    width: 110px;
+    border-radius: 70px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagemBeneficios{
+    width: 60%;
 }
