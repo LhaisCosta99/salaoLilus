@@ -169,3 +169,10 @@ td,th{
     border: 1px solid #bbbbbb;
     padding: 8px 15px;
 }
+
+footer{
+    text-align: center;
+    background:#bbbbbb;
+    padding: 40px 0;
+    padding-left: 50px;
+}
