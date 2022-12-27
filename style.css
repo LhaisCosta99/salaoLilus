@@ -239,6 +239,12 @@ td,th{
 .imagemBeneficios{
     width: 50%;
     border-radius: 10px;
+    opacity: 1;
+    transition: 4000ms;
+}
+
+.imagemBeneficios:hover{
+    opacity: 0.3;
 }
 
 .mapa{
